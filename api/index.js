@@ -9,7 +9,7 @@ import path from 'path';
 dotenv.config();
 
 mongoose
-  .connect("mongodb+srv://satyamanand3012:<db_password>@cluster0.65bcg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+  .connect("mongodb+srv://harkaran0010:MnTUtJQHs2Mlqy9X@cluster0.zu6g5tf.mongodb.net/?retryWrites=true&w=majority")
   .then(() => {
     console.log('Connected to MongoDB!');
   })
